@@ -43,6 +43,14 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * jika ingin mempelajari estimasi jalan dari lokasi a ke b
+ * baca-baca di mari https://www.simplifiedcoding.net/google-maps-distance-calculator-google-maps-api/
+ * dan https://developers.google.com/maps/documentation/directions/
+ * jika muncul masalah authorized baca disini http://stackoverflow.com/questions/21933247/this-ip-site-or-mobile-application-is-not-authorized-to-use-this-api-key
+ * dan jangan lupa enable directions_backend https://console.developers.google.com/apis/api/directions_backend/overview
+ **/
+
 public class MapsActivity extends FragmentActivity implements
         OnMapReadyCallback,
         GoogleApiClient.ConnectionCallbacks,
